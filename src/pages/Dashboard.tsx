@@ -811,6 +811,7 @@ const Dashboard = () => {
                 height="100%"
                 width="100%"
                 allowFullScreen
+                title="Twitch Stream"
               ></iframe>
             </div>
             <div className="mt-4 p-4 bg-blue-50 rounded-lg">
