@@ -805,9 +805,9 @@ const Dashboard = () => {
                 </svg>
               </button>
             </div>
-            <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
+           <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
               <iframe
-                src="https://player.twitch.tv/?channel=coopkundtjanst&parent=localhost"
+                src={`https://player.twitch.tv/?channel=coopkundtjanst&parent=${window.location.hostname}`}
                 height="100%"
                 width="100%"
                 allowFullScreen
